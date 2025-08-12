@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <title>Aurora Demo (GBA-style)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <div id="topbar">Aurora Demo — Arrow keys / Tap arrows • Z=Confirm • X=Cancel</div>
+    <div id="message" class="hidden"></div>
+    <div id="menu" class="hidden"></div>
+    <div id="savehint">Autosaves to browser.</div>
+    <div id="touch-controls">
+      <button id="btn-up">▲</button><br/>
+      <button id="btn-left">◀</button>
+      <button id="btn-down">▼</button>
+      <button id="btn-right">▶</button><br/>
+      <button id="btn-z">Z</button>
+      <button id="btn-x">X</button>
+    </div>
+  </div>
+  <canvas id="game" width="480" height="320"></canvas>
+  <script src="game.js"></script>
+</body>
+  </html>
